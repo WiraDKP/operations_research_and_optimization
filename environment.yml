@@ -1,0 +1,27 @@
+name: jcop-or
+
+channels:
+- conda-forge
+- anaconda 
+
+dependencies:
+# Essential
+- python==3.9
+- nb_conda_kernels==2.3.1
+- pip==22.2.1
+- ipython==8.4.0
+- tqdm==4.64.0
+# Data Science
+- numpy==1.23.1
+- scipy==1.8.1
+- pandas==1.4.3
+# Visualization
+- matplotlib==3.5.2
+- ipywidgets==7.7.1
+
+- pip:
+  # Linear Programming
+  - pulp_utils
+  - pulp==2.6.0
+  # MetaHeuristics
+  - scikit-opt==0.6.6
