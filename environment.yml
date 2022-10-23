@@ -21,7 +21,7 @@ dependencies:
 
 - pip:
   # Linear Programming
-  - pulp_utils
+  - pulp-utils
   - pulp==2.6.0
   # MetaHeuristics
   - scikit-opt==0.6.6
